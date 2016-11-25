@@ -9,7 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Usage
+
+
 
 ## Installation
 
@@ -17,8 +19,10 @@ Overwatch is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "Overwatch"
+pod 'Overwatch', :configurations => ['Debug']
 ```
+
+It's advised to add Overwatch to only 'Debug' configuration.
 
 ## Author
 
