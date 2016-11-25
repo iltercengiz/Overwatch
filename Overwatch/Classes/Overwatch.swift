@@ -6,21 +6,21 @@
 //  Copyright © 2016 D-Teknoloji. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class Overwatch: NSObject {
+public class Overwatch: NSObject {
     
     private static let sharedInstance = Overwatch()
     private var storage: [String: Date] = [:]
     
     // MARK: Public functions
     
-    static func start(with identifier: String) {
+    public static func start(with identifier: String) {
         sharedInstance.startTimer(with: identifier)
     }
     
-    static func stop(with identifier: String) {
-        print("[ Stopwatch ]: \(identifier) duration: \(sharedInstance.stopTimer(with: identifier))")
+    public static func stop(with identifier: String) {
+        print("[ Overwatch ]: \(identifier) duration: \(sharedInstance.stopTimer(with: identifier))")
     }
     
     // MARK: Private functions
