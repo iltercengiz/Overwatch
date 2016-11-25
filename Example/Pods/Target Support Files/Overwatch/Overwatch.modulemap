@@ -1,0 +1,6 @@
+framework module Overwatch {
+  umbrella header "Overwatch-umbrella.h"
+
+  export *
+  module * { export * }
+}

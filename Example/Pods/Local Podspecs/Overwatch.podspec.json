@@ -1,0 +1,22 @@
+{
+  "name": "Overwatch",
+  "version": "0.1.0",
+  "summary": "A short description of Overwatch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Overwatch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ilter Cengiz": "iltercengiz@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Overwatch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Overwatch/Classes/**/*"
+}

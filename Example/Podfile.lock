@@ -1,0 +1,16 @@
+PODS:
+  - Overwatch (0.1.0)
+
+DEPENDENCIES:
+  - Overwatch (from `../`)
+
+EXTERNAL SOURCES:
+  Overwatch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Overwatch: d1e8c1cc116cd03a553c04ab4465d4c82d0bb721
+
+PODFILE CHECKSUM: 814a75cc5cba8c127caddf570541a08697927968
+
+COCOAPODS: 1.1.1
