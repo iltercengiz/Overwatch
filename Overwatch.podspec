@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Overwatch'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'Easily measure how long a task takes.'
   s.description      = <<-DESC
                        Stopwatch provides simple methods to start a timer and stop it. Using the description provided when starting a timer prints out the duration when stopped.
