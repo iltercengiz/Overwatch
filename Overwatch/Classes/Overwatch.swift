@@ -15,23 +15,25 @@ public class Overwatch: NSObject {
     
     // MARK: Public functions
     
-    public static func start(with identifier: String) {
-        sharedInstance.startTimer(with: identifier)
+    public static func start(withName name: String) {
+        sharedInstance.startTimer(with: name)
     }
     
-    public static func stop(with identifier: String) {
-        print("[ Overwatch ]: \(identifier) duration: \(sharedInstance.stopTimer(with: identifier))")
+    @discardableResult public static func stop(withName name: String) -> TimeInterval {
+        let duration = sharedInstance.stopTimer(with: name)
+        print("[ Overwatch ]: \(name) duration: \(duration)")
+        return duration
     }
     
     // MARK: Private functions
     
-    func startTimer(with identifier: String) {
-        storage[identifier] = Date()
+    func startTimer(with name: String) {
+        storage[name] = Date()
     }
     
-    func stopTimer(with identifier: String) -> TimeInterval {
+    func stopTimer(with name: String) -> TimeInterval {
         let timeInterval: TimeInterval
-        if let startDate = storage[identifier] {
+        if let startDate = storage[name] {
             timeInterval = startDate.timeIntervalSinceNow * (-1)
         } else {
             timeInterval = 0
