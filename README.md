@@ -11,18 +11,31 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Usage
 
+Overwatch is a singleton object on its own and provides two class methods to start and stop a timer.
 
+To start a timer:
+
+```swift
+Overwatch.start(withName: "com.example.Overwatch.asyncTask")
+```
+
+and to stop a timer after a long running task:
+
+```swift
+Overwatch.stop(withName: "com.example.Overwatch.asyncTask")
+```
+
+Also stop method returns a `TimeInterval` value to let the caller know about the duration that has passed.
 
 ## Installation
 
-Overwatch is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+Overwatch is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'Overwatch', :configurations => ['Debug']
 ```
 
-It's advised to add Overwatch to only 'Debug' configuration.
+It's advised to add Overwatch to only `Debug` configuration.
 
 ## Author
 
