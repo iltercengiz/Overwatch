@@ -1,6 +1,6 @@
 # Overwatch
 
-[![CI Status](http://img.shields.io/travis/Ilter Cengiz/Overwatch.svg?style=flat)](https://travis-ci.org/Ilter Cengiz/Overwatch)
+[![CI Status](https://img.shields.io/travis/Ilter%20Cengiz/Overwatch.svg?style=flat)](https://travis-ci.org/Ilter%20Cengiz/Overwatch)
 [![Version](https://img.shields.io/cocoapods/v/Overwatch.svg?style=flat)](http://cocoapods.org/pods/Overwatch)
 [![License](https://img.shields.io/cocoapods/l/Overwatch.svg?style=flat)](http://cocoapods.org/pods/Overwatch)
 [![Platform](https://img.shields.io/cocoapods/p/Overwatch.svg?style=flat)](http://cocoapods.org/pods/Overwatch)
